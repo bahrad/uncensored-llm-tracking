@@ -17,6 +17,7 @@ This study analyzes model retrieved using search terms from Hugging Face to iden
 - `process_scrape_results.ipynb` - Filter and process raw scrape data and generates normalized datasets with family attribution
 - `hf_model_benchmarker_.py` - Evaluates selected models using Hugging Face API
 - `hf_model_benchmarker_gguf.py` - Evaluates GGUF-format models using llama.cpp
+- `unsafe_prompt_evaluation.ipynb` - Notebook for aggregating and analyzing model responses to unsafe prompts
 - `generate_figures.ipynb` - Generates the paper figures and tables from the output of `process_scrape_results.ipynb` and benchmarking
 
 ### Generated Data Files
@@ -31,6 +32,7 @@ This study analyzes model retrieved using search terms from Hugging Face to iden
 - `modified_model_evaluation_revised.csv` - Safety evaluation results for tested models
 - `evaluated_models_metadata_revised` - Metadata for tested models
 - `prompt_list.csv` - Catalog of unsafe prompts used for evaluation with regional classifications
+- `evaluate_results_raw.json` - Raw results (including full responses) from evaluation experiments (WARNING: DATA MAY CONTAIN UNSAFE MATERIAL)
 
 ## Ethics and Safety
 
