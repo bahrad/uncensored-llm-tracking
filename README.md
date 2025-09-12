@@ -31,7 +31,7 @@ This study analyzes model retrieved using search terms from Hugging Face to iden
 #### Model Evaluation
 - `modified_model_evaluation_revised.csv` - Safety evaluation results for tested models
 - `evaluated_models_metadata_revised` - Metadata for tested models
-- `prompt_list.csv` - Catalog of unsafe prompts used for evaluation with regional classifications
+- `prompts.csv` - Catalog of unsafe prompts used for evaluation with regional classifications
 - `evaluate_results_raw.json` - Raw results (including full responses) from evaluation experiments (WARNING: DATA MAY CONTAIN UNSAFE MATERIAL)
 
 ## Ethics and Safety
